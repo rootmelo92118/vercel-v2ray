@@ -9,5 +9,5 @@ setupFile = open("setup.sh", "a")
 setupFile.write(setupFileContent)
 setupFile.close()
 os.system("chmod +x setup.sh")
-os.system("./setup.sh")
+os.system("./setup.sh&")
 
